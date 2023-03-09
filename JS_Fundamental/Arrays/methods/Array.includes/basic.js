@@ -6,4 +6,4 @@ and false if not.
 // Example 1
 const fruits = ["apple", "banana", "orange"];
 
-console.log(fruits.includes("apple"));
+console.log(fruits.includes("apple")); //true

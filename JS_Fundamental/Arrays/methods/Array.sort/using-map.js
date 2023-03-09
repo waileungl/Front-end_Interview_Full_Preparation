@@ -25,4 +25,4 @@ var result = mapped.map(function (el) {
   return list[el.index];
 });
 
-console.log(result) // Sorted array
+console.log(result) // Sorted array //[ 'alpha', 'bravo', 'CHARLIE', 'Delta' ]

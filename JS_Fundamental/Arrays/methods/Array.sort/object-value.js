@@ -29,4 +29,16 @@ function sortByName() {
 
 
 const result = sortByName()
+const result2 = sortByValue()
+
 console.log(result)
+console.log(result2)
+//output of results2:
+/*[
+  { name: 'The', value: -12 },
+  { name: 'Magnetic', value: 13 },
+  { name: 'Edward', value: 21 },
+  { name: 'Sharpe', value: 37 },
+  { name: 'Zeros', value: 37 },
+  { name: 'And', value: 45 }
+]*/

@@ -21,4 +21,4 @@ Array.of2 = function () {
   return vals;
 }
 
-console.log(Array.of2(7));
+console.log(Array.of2(7, 10 , 1)); //[ 7, 10, 1 ]
