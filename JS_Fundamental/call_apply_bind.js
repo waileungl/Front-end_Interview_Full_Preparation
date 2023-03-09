@@ -19,4 +19,4 @@ console.log(JaneApply)
 const JaneBind = person.bind(anotherPerson, "Taylor's University", "Newark");
 console.log(JaneBind())
 
-
+//output: Jane is 25 old, She is studying at Taylor's University and living at Newark
