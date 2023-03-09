@@ -9,10 +9,10 @@ const numbers = [1, 2, 4, 6, 8, 10, 12, 13, 14, 16, 19];
 
 const found = numbers.find((element, _index, _array) => {
   numbers.push(25); // will NOT be affected
-  numbers.pop(); // will be affected
+  numbers.pop(); // will NOT be affected
   numbers[1] = 20; // will be affected
 
   return element > 15;
 });
 
-console.log(found);
+console.log(found); // 20

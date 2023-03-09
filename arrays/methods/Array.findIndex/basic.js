@@ -5,5 +5,5 @@
 
 const num = ["apple", "banana", "cake"];
 
-let result = num.findIndex((element) => element === "apple");
-console.log(result);
+let result = num.findIndex((element) => element === "cake");
+console.log(result); // 2
