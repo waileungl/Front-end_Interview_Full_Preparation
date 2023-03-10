@@ -1,0 +1,11 @@
+{
+  "name": "easy_check_palindrome",
+  "version": "1.0.5",
+  "description": "check your input(number or string) is palindrome or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "william Liu",
+  "license": "ISC"
+}
