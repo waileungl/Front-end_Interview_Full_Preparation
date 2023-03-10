@@ -1,4 +1,5 @@
-const isServerUp = false;
+//* call back function
+const isServerUp = true;
 
 function getFileFromServer(successCallback, failureCallback) {
   setTimeout(() => {
@@ -7,15 +8,15 @@ function getFileFromServer(successCallback, failureCallback) {
     } else {
       failureCallback();
     }
-  }, 1000);
+  }, 2000);
 }
 
 getFileFromServer(
   () => {
-    console.log("File downloaded");
+    console.log("File downloaded"); //this is consider a call back function
   },
   () => {
-    console.log("Failed to download the file");
+    console.log("Failed to download the file"); //this is consider a call back function
   }
 );
 
@@ -38,3 +39,5 @@ downloadFile
   .catch(() => {
     console.log("Failed to download the file");
   });
+
+  /* a callback is a function that is passed as an argument to another function and is executed when the parent function is completed or when a certain event occurs.*/

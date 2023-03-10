@@ -1,5 +1,5 @@
 /*
- Consider if we need to download a file from server3 only if server 1 and 2 are up
+  Consider if we need to download a file from server3 only if server 1 and 2 are up, which mean the promise is depending on one and other
 */
 
 const isServer1Up = true;
