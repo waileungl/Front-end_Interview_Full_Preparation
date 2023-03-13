@@ -20,7 +20,7 @@ const downloadFile3 = new Promise((resolve, reject) => {
 
 * Definition
 
-Promise.All is used to parallelly execute all promises and resolve when all of 
+Promise.All is used to parallelly execute all promises(by defined sequence in the array) and resolve when all of 
 them complete.
 
  */
