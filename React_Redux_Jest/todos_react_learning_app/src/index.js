@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import MytoDo from './app'
 
 import { Provider } from "react-redux"
@@ -13,6 +13,5 @@ const ReduxApp = () => {
     )
 }
 
-
-
-ReactDom.render(<ReduxApp />, document.getElementById('rootCanBeChange'))
+const root = createRoot(document.getElementById('rootCanBeChange'))
+root.render(<ReduxApp />)
