@@ -6,7 +6,7 @@ import shortid from "shortid";
 const saveStorageToBrowser = (state) => {
     window.localStorage.setItem("wl-todos", JSON.stringify(state))
 }
-
+//
 const reducer = (state = initialState, action) => {
     if (action.type == ADD_TODO) {
         const { todo } = action.payload
